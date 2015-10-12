@@ -1,0 +1,3 @@
+expectations:
+- binding: pesonajesRespetables
+  inspection: HasFindall
