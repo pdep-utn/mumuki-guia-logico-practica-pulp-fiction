@@ -11,7 +11,5 @@ test(es_duoTemible_es_inversible_por_1ra_posicion, set(Peligroso1==[vincent])) :
 	duoTemibleWithoutOrder(Peligroso1, jules).
 
 test(es_duoTemible_es_totalmente_inversible,
-		[set(Peligroso1==[vincent, jules, pumkin, honeyBunny]),
-		set(Peligroso2==[vincent, jules, pumkin, honeyBunny]),
-		true(not(Peligroso1==Peligroso2))]) :-
-	duoTemibleWithoutOrder(Peligroso1, Peligroso2).
+		[true(Duos==[[pumkin, honeyBunny], [vincent, jules], [honeyBunny, pumkin], [jules, vincent]])]) :-
+	findall(Duo,(duoTemibleWithoutOrder(P1,P2),Duo = [P1,P2]),Duos).
