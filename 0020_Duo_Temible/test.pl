@@ -13,5 +13,5 @@ test(es_duoTemible_es_inversible_por_1ra_posicion, set(Peligroso1==[vincent])) :
 test(es_duoTemible_es_totalmente_inversible,
 		[set(Peligroso1==[vincent, jules, pumkin, honeyBunny]),
 		set(Peligroso2==[vincent, jules, pumkin, honeyBunny]),
-		true(Peligroso1==/Peligroso2)]) :-
+		true(not(Peligroso1==Peligroso2))]) :-
 	duoTemibleWithoutOrder(Peligroso1, Peligroso2).
