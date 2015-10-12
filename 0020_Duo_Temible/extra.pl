@@ -1,13 +1,18 @@
-personaje(pumkin,     ladron([licorerias, estacionesDeServicio])).
-personaje(honeyBunny, ladron([licorerias, estacionesDeServicio])).
-personaje(vincent,    mafioso(maton)).
-personaje(jules,      mafioso(maton)).
-personaje(marsellus,  mafioso(capo)).
-personaje(winston,    mafioso(resuelveProblemas)).
-personaje(mia,        actriz([foxForceFive])).
-personaje(butch,      boxeador).
+esPeligroso(pumkin).
+esPeligroso(honeyBunny).
+esPeligroso(vincent).
+esPeligroso(jules).
+esPeligroso(marsellus).
 
-%trabajaPara(Empleador, Empleado)
-trabajaPara(marsellus, vincent).
-trabajaPara(marsellus, jules).
-trabajaPara(marsellus, winston).
+amigo(vincent, jules).
+amigo(jules, jimmie).
+amigo(vincent, elVendedor).
+
+pareja(marsellus, mia).
+pareja(pumkin, honeyBunny).
+
+duoTemibleWithoutOrder(Peligroso1,Peligroso2):-
+	duoTemible(Peligroso1, Peligroso2).
+
+duoTemibleWithoutOrder(Peligroso1,Peligroso2):-
+	duoTemible(Peligroso2, Peligroso1).
