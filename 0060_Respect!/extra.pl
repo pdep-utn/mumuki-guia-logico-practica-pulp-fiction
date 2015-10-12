@@ -7,8 +7,12 @@ personaje(winston,    mafioso(resuelveProblemas)).
 personaje(mia,        actriz([foxForceFive])).
 personaje(butch,      boxeador).
 
-encargo(marsellus, vincent,   cuidar(mia)).
-encargo(vincent,  elVendedor, cuidar(mia)).
-encargo(marsellus, winston, ayudar(jules)).
-encargo(marsellus, winston, ayudar(vincent)).
-encargo(marsellus, vincent, buscar(butch, losAngeles)).
+personaje(angelina, actriz(ListaPeliculas)):-
+	peliculasRecursivas(100, [], ListaPeliculas).
+
+peliculasRecursivas(0, Lista, Lista).
+peliculasRecursivas(Numero, ListaAnt, Lista):-
+	Numero > 0,
+	NumeroSig is Numero - 1,
+	append([Numero], ListaAnt, ListaInt),
+	peliculasRecursivas(NumeroSig, ListaInt, Lista).
