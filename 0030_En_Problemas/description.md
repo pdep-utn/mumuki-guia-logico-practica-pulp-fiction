@@ -5,12 +5,14 @@
 * Además butch siempre está en problemas.
 
 Ejemplo:
+
 ```
 ? estaEnProblemas(vincent)
 yes. %porque marsellus le pidió que cuide a mia, y porque tiene que ir a buscar a butch
 ```
 
 La información de los encargos está codificada en la base de la siguiente forma:
+
 ```
 %encargo(Solicitante, Encargado, Tarea).
 %las tareas pueden ser cuidar(Protegido), ayudar(Ayudado), buscar(Buscado, Lugar)

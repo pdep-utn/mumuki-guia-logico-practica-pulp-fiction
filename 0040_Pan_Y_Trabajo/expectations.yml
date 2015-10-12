@@ -1,0 +1,7 @@
+expectations:
+- binding: sanCayetano
+  inspection: HasForall
+- binding: sanCayetano
+  inspection: HasUsage:trabajaPara
+- binding: sanCayetano
+  inspection: HasUsage:encargo
