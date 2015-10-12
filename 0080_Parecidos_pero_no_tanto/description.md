@@ -6,4 +6,4 @@ caracteristicas(vincent,  [negro, muchoPelo, tieneCabeza]).
 caracteristicas(jules,    [tieneCabeza, muchoPelo]).
 caracteristicas(marvin,   [negro]).
 ```
-Desarrollar `duoDiferenciable/2`, que relaciona a un dúo (dos amigos o una pareja) en el que uno tiene al menos una característica que el otro no. 
+Desarrollar `duoDiferenciable/2`, que relaciona a un dúo (dos amigos o una pareja) en el que uno tiene al menos una característica que el otro no.
