@@ -1,6 +1,6 @@
 Realizar el predicado `esPeligroso/1`, que nos dice si un personaje es peligroso. Eso ocurre cuando:
-* Realiza alguna actividad peligrosa: ser matón, o robar licorerías.
-* Tiene empleados peligrosos
+- Realiza alguna actividad peligrosa: ser matón, o robar licorerías.
+- Tiene empleados peligrosos
 
 
 Teniendo en cuenta la siguiente base de conocimientos:
