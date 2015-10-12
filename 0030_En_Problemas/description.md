@@ -1,7 +1,8 @@
-`estaEnProblemas/1`: un personaje está en problemas cuando
-el jefe es peligroso y le encarga que cuide a su pareja
-o bien, tiene que ir a buscar a un boxeador.
-Además butch siempre está en problemas.
+`estaEnProblemas/1`: un personaje está en problemas cuando:
+
+* El jefe es peligroso y le encarga que cuide a su pareja,
+* O bien, tiene que ir a buscar a un boxeador.
+* Además butch siempre está en problemas.
 
 Ejemplo:
 ```
