@@ -2,6 +2,6 @@ expectations:
 - binding: sanCayetano
   inspection: HasForall
 - binding: sanCayetano
-  inspection: HasUsage:trabajaPara
+  inspection: Not:HasUsage:trabajaPara
 - binding: sanCayetano
-  inspection: HasUsage:encargo
+  inspection: Not:HasUsage:amigo
