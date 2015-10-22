@@ -10,3 +10,4 @@ test(no_es_sanCayetano_si_alguno_de_sus_empleados_no_recibe_sus_encargos, fail) 
 test(estaEnProblemas_es_inversible,
 		[true(Cayetano==donCorleone), nondet]) :-
 	sanCayetano(Cayetano).
+
