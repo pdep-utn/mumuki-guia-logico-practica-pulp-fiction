@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: sanCayetano
+  inspection: HasForall
+- binding: sanCayetano
+  inspection: Not:HasUsage:trabajaPara
+- binding: sanCayetano
+  inspection: Not:HasUsage:amigo
