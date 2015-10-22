@@ -1,4 +1,4 @@
 ---
 expectations:
-- binding: pesonajesRespetables
+- binding: personajesRespetables
   inspection: HasFindall
