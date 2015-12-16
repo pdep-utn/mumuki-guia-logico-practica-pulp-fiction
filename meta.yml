@@ -1,8 +1,5 @@
----
-name: Pulp Fiction TP
+name: 'Práctica Pulp Fiction'
 locale: es
-learning: false
-beta: false
 language: prolog
 original_id_format: '%05d'
 order:
