@@ -1,7 +1,0 @@
-expectations:
-- binding: duoTemible
-  inspection: HasUsage:esPeligroso
-- binding: duoTemible
-  inspection: Not:HasUsage:amigo
-- binding: duoTemible
-  inspection: Not:HasUsage:pareja

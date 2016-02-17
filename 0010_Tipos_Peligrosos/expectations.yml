@@ -1,5 +1,0 @@
-expectations:
-- binding: esPeligroso
-  inspection: HasUsage:trabajaPara
-- binding: esPeligroso
-  inspection: HasDirectRecursion
