@@ -1,7 +1,10 @@
-name: 'Práctica Pulp Fiction'
+---
+name: Práctica Pulp Fiction
 locale: es
+type: practice
+beta: false
 language: prolog
-original_id_format: '%05d'
+id_format: '%05d'
 order:
 - 10
 - 20
