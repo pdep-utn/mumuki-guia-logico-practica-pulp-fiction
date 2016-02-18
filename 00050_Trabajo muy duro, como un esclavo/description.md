@@ -1,4 +1,4 @@
-`masAtareado/1`: Es el más atareado aquel que tenga más encargos que cualquier otro personaje.
+`elMasAtareado/1`: Es el más atareado aquel que tenga más encargos que cualquier otro personaje.
 
 Recordar:
 
