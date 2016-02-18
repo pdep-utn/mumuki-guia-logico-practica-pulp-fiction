@@ -1,5 +1,5 @@
 test(personajeRespetable_es_inversible, nondet) :-
-	pesonajesRespetables(Respetable),
+	personajesRespetables(Respetable),
 	member(winston, Respetable),
 	member(marsellus, Respetable),
 	member(angelina, Respetable),
