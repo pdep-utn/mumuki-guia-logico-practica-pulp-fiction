@@ -7,7 +7,7 @@ personaje(winston,    mafioso(resuelveProblemas)).
 personaje(mia,        actriz([foxForceFive])).
 personaje(butch,      boxeador).
 
-amigo(vincent, jules).
+amigo(jules, vincent).
 amigo(jules, jimmie).
 amigo(vincent, elVendedor).
 
