@@ -4,4 +4,4 @@ tags:
 - parcial
 layout: editor_right
 type: problem
-extra_visible: true
+extra_visible: false
