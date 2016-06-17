@@ -8,3 +8,5 @@ amigo(vincent, elVendedor).
 pareja(marsellus, mia).
 pareja(pumkin, honeyBunny).
 ```
+
+> Asumí que existe el predicado esPeligroso/1
