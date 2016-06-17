@@ -12,6 +12,7 @@ trabajaPara(marsellus, vincent).
 trabajaPara(marsellus, jules).
 trabajaPara(marsellus, winston).
 trabajaPara(marsellus, antwone).
+trabajaPara(vincent, elVendedor).
 
 pareja(marsellus, mia).
 
