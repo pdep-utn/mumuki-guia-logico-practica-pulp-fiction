@@ -13,9 +13,12 @@ trabajaPara(marsellus, jules).
 trabajaPara(marsellus, winston).
 trabajaPara(marsellus, antwone).
 trabajaPara(vincent, elVendedor).
+trabajaPara(sarlompBoss, sarlompEmployee).
 
 pareja(marsellus, mia).
+pareja(sarlompBoss, sarlompWife).
 
+encargo(sarlompBoss, sarlompEmployee, cuidar(sarlompWife)).
 encargo(marsellus, vincent,   cuidar(mia)).
 encargo(vincent,  elVendedor, cuidar(mia)).
 encargo(marsellus, winston, ayudar(jules)).
