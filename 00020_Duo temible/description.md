@@ -4,6 +4,7 @@
 amigo(vincent, jules).
 amigo(jules, jimmie).
 amigo(vincent, elVendedor).
+...
 
 pareja(marsellus, mia).
 pareja(pumkin, honeyBunny).
