@@ -7,9 +7,6 @@ esPeligroso(marsellus).
 amigo(vincent, jules).
 amigo(jules, jimmie).
 amigo(vincent, elVendedor).
-amigo(jules,vincent).
-amigo(jimmie,jules).
-amigo(elVendedor,vincent).
 
 pareja(marsellus, mia).
 pareja(pumkin, honeyBunny).
