@@ -22,9 +22,14 @@ trabajaPara(franco, programador1).
 amigo(vincent, jules).
 amigo(jules, jimmie).
 amigo(vincent, elVendedor).
+amigo(jules,vincent).
+amigo(jimmie,jules).
+amigo(elVendedor,vincent).
 
 amigo(franco, vero).
 amigo(franco, gaston).
+amigo(vero, franco).
+amigo(gaston, franco).
 
 encargo(marsellus, vincent,   cuidar(mia)).
 encargo(vincent,  elVendedor, cuidar(mia)).
