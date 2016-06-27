@@ -10,6 +10,9 @@ personaje(butch,      boxeador).
 amigo(jules, vincent).
 amigo(jules, jimmie).
 amigo(vincent, elVendedor).
+amigo(vincent,jules).
+amigo(jimmie,jules).
+amigo(elVendedor,vincent).
 
 encargo(marsellus, vincent,   cuidar(mia)).
 encargo(vincent,  elVendedor, cuidar(mia)).
