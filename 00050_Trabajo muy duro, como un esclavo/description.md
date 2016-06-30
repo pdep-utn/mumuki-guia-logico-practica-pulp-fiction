@@ -1,4 +1,6 @@
-`elMasAtareado/1`: Es el más atareado aquel que tenga más encargos que cualquier otro personaje.
+`elMasAtareado/1`: Se cumple para aquel que tenga la mayor cantidad de encargos de entre todos los personajes.
+
+> Nota: en el caso de haber dos con la misma cantidad máxima de encargos, ambos son respuestas válidas.
 
 Recordar:
 
