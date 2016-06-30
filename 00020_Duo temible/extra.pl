@@ -5,14 +5,14 @@ esPeligroso(jules).
 esPeligroso(marsellus).
 
 amigo(vincent, jules).
+amigo(jules, vincent).
 amigo(jules, jimmie).
+amigo(jimmie, jules).
 amigo(vincent, elVendedor).
+amigo(elVendedor, vincent).
 
 pareja(marsellus, mia).
+pareja(mia, marsellus).
 pareja(pumkin, honeyBunny).
+pareja(honeyBunny,pumkin).
 
-duoTemibleWithoutOrder(Peligroso1,Peligroso2):-
-	duoTemible(Peligroso1, Peligroso2).
-
-duoTemibleWithoutOrder(Peligroso1,Peligroso2):-
-	duoTemible(Peligroso2, Peligroso1).
