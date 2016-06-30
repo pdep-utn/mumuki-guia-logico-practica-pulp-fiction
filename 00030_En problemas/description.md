@@ -23,4 +23,4 @@ encargo(marsellus, winston, ayudar(vincent)).
 encargo(marsellus, vincent, buscar(butch, losAngeles)).
 ```
 
-> Asumí que existen también los predicados personaje/2, esPeligroso/1, trabajaPara/2 y pareja/2.
+> Asumí que existen también los predicados personaje/2, esPeligroso/1, trabajaPara/2 y pareja/2, siendo esta última una relación simétrica.

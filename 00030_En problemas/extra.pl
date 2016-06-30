@@ -17,6 +17,8 @@ trabajaPara(sarlompBoss, sarlompEmployee).
 
 pareja(marsellus, mia).
 pareja(sarlompBoss, sarlompWife).
+pareja(mia,marsellus).
+pareja(sarlompWife,sarlompBoss).
 
 encargo(sarlompBoss, sarlompEmployee, cuidar(sarlompWife)).
 encargo(marsellus, vincent,   cuidar(mia)).
