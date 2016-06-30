@@ -11,5 +11,5 @@ test(es_duoTemible_es_inversible_por_1ra_posicion, set(Peligroso1==[vincent])) :
 	duoTemible(Peligroso1, jules).
 
 test(es_duoTemible_es_totalmente_inversible,
-		[true(Duos==[[pumkin, honeyBunny], [vincent, jules], [honeyBunny, pumkin], [jules, vincent]])]) :-
-	findall(Duo,(duoTemible(P1,P2),Duo = [P1,P2]),Duos).
+		[set(Duo==[[pumkin, honeyBunny], [vincent, jules], [honeyBunny, pumkin], [jules, vincent]])]) :-
+	duoTemible(P1,P2), Duo = [P1,P2].
