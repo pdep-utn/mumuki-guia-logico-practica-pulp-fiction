@@ -1,6 +1,17 @@
 personaje(butch,      boxeador).
 personaje(rocky,      boxeador).
-
+% Agregado para que no rechace soluciones que generan al personaje innecesariamente
+personaje(honeyBunny, ladron([licorerias, estacionesDeServicio])).
+personaje(vincent,    mafioso(maton)).
+personaje(jules,      mafioso(maton)).
+personaje(marsellus,  mafioso(capo)).
+personaje(micky, ladron([licorerias, estacionesDeServicio])).
+personaje(antwone, ladron([licorerias])).
+personaje(pumkin,      mafioso(maton)).
+personaje(winston,      mafioso(maton)).
+personaje(elVendedor,   ventas).
+personaje(sarlompBoss,   ventas).
+personaje(sarlompEmployee,   ventas).
 
 esPeligroso(pumkin).
 esPeligroso(honeyBunny).
