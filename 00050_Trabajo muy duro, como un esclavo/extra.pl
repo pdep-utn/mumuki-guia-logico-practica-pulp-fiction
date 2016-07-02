@@ -8,7 +8,11 @@ personaje(mia,        actriz([foxForceFive])).
 personaje(butch,      boxeador).
 
 encargo(marsellus, vincent,   cuidar(mia)).
+encargo(marsellus, vincent, buscar(butch, losAngeles)).
+encargo(marsellus, vincent, ayudar(honeyBunny)).
 encargo(vincent,  elVendedor, cuidar(mia)).
+encargo(marsellus, elVendedor, ayudar(vincent)).
 encargo(marsellus, winston, ayudar(jules)).
 encargo(marsellus, winston, ayudar(vincent)).
-encargo(marsellus, vincent, buscar(butch, losAngeles)).
+encargo(marsellus, winston, buscar(vincent, losAngeles)).
+encargo(jules, pumkin, ayudar(vincent)).
