@@ -38,5 +38,6 @@ encargo(marsellus, winston, ayudar(jules)).
 encargo(marsellus, winston, ayudar(vincent)).
 encargo(marsellus, vincent, buscar(butch, losAngeles)).
 encargo(desconocido, micky, buscar(rocky, hollywood)).
+encargo(desconocido, sarlompEmployee, buscar(vincent, hollywood)).
 
 encargo(marsellus, antwone,   cuidar(mia)).
