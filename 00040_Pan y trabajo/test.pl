@@ -8,5 +8,5 @@ test(no_es_sanCayetano_si_alguno_de_sus_empleados_no_recibe_sus_encargos, fail) 
 	sanCayetano(marsellus).
 
 test(estaEnProblemas_es_inversible,
-		[true(Cayetano==donCorleone), nondet]) :-
+		[set(Cayetano==[donCorleone,franco]), nondet]) :-
 	sanCayetano(Cayetano).
