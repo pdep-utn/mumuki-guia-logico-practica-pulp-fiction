@@ -2,7 +2,7 @@
 expectations:
 - binding: sanCayetano
   inspection: HasForall
-- binding: sanCayetano
+- binding: Intransitive:sanCayetano
   inspection: Not:Uses:trabajaPara
-- binding: sanCayetano
+- binding: Intransitive:sanCayetano
   inspection: Not:Uses:amigo
